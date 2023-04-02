@@ -19,9 +19,10 @@
     </div>
     <div class="board"></div>
     <div class="footer">
-        <button type="button" class="btn btn-success" >rgb</button>
-        <button type="button" class="btn btn-dark">black</button>
-        <button type="button" class="btn btn-outline-danger">reset</button>
+        <button type="button" class="btn btn-success" onclick="changeColor('rgb')">rgb</button>
+        <button type="button" class ="btn btn-dark" onclick="changeColor('black')">black</button>
+        <button type="button" class="btn btn-warning" onclick="changeColor('white')">eraser</button>
+        <button type="button" class="btn btn-outline-danger" onclick="resetBoard()">reset</button>
     </div>
     <script src="app.js"></script>
 </body>
